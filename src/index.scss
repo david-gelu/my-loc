@@ -1,0 +1,35 @@
+@import "~bootstrap/scss/bootstrap";
+.location-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.locations {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  width: 90%;
+  margin-inline: auto;
+}
+.location {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  box-shadow: 0px 0px 0.3em #000;
+  width: min(23em, 98%);
+  padding: 1rem 1.5rem;
+}
+.form-container {
+  width: min(20em, 98%);
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+  background: #ccc;
+  box-shadow: 0px 0px 0.3em #000;
+  & .mb-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}

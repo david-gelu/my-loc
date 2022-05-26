@@ -1,0 +1,50 @@
+[
+  {
+    "category": "Restaurant",
+    "locations": {
+      "name": "AAA",
+      "address": "13 Decembrie",
+      "coordinates": {
+        "lat": 45,
+        "long": 10
+      },
+      "category": "Restaurant"
+    }
+  },
+  {
+    "category": "Restaurant",
+    "locations": {
+      "name": "BBB",
+      "address": "Calea Bucurestilor",
+      "coordinates": {
+        "lat": 55,
+        "long": 100
+      },
+      "category": "Restaurant"
+    }
+  },
+  {
+    "category": "Bar",
+    "locations": {
+      "name": "CCC",
+      "address": "Blv Garii",
+      "coordinates": {
+        "lat": 75,
+        "long": 20.7
+      },
+      "category": "Bar"
+    }
+  },
+  {
+    "category": "Bar",
+    "locations": {
+      "name": "DDD",
+      "address": "1 Decembrie",
+      "coordinates": {
+        "lat": 75,
+        "long": 20.7
+      },
+      "category": "Bar"
+    }
+  }
+]
